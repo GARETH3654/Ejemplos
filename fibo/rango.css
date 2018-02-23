@@ -1,0 +1,17 @@
+h1{
+  color: darkred;
+}
+nav{
+  background-color: orange;
+  padding: 3px;
+  border-radius: 15px;
+  border-style:  solid;
+  display:  block;
+}
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmyawvt_7-lXo32LHOgR9pWcWCwMnCFyXUcTlTy-64yoQ8X0WBcQ);
+  color: yellow;
+  background-size:  contain;
+  background-attachment: fixed;
+  caption-side: bottom;
+}

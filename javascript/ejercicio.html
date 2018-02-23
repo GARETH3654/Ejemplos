@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="ejercicio.css">
+    <title>practica en js</title>
+    <nav>
+      <button onclick="nav">
+        <a href="https://centraal.academy/">Centraal Academy</a>
+      </button>
+      <a href="../indice.html">indice</a>
+      <button onclick="nave1">
+        <h3>Ejercicios de html</h3>
+      </button>
+    </nav>
+  </head>
+  <body>
+    <h1>Ejercicio de palindromo</h1>
+    <h3>
+      <p>un palindromo es una palabra que se puede leer
+        al derecho y al revez</p>
+        <button onclick = "palindrome();">escribir palindromo</button>
+
+    <h1>Piramide</h1>
+    <button onclick="pyramid();">piramide</button>
+    <p>indica el numero que quieres para tu piramide</p>  
+  </h3>
+    <script> 
+        function piramide(num) { 
+            var piram = Array(); 
+            var separator = "<br/>"; 
+            for (i = num; i >= 1; i -= 1) { 
+                var fila; 
+                if (i > 1 && i < num) { 
+                    fila = "*" + new Array(i - 1).join("*") + "*"; 
+                } else { 
+                    fila = new Array(i + 1).join("*"); 
+                } 
+                piram.push(fila); 
+            } 
+            piram.reverse(); 
+            return piram.join(separator); 
+        } 
+ 
+        function dibujapir(n) { 
+            document.getElementById('resultado').innerHTML = piramide(eval(n)); 
+        } 
+    </script> 
+    <style> 
+    #resultado { 
+        font-family:arial; 
+        text-align:center; 
+    } 
+    </style> 
+</head> 
+ 
+<body> 
+    <label for='tampiram'>Tama&ntilde;o de la piramide</label> 
+    <input type='text' id='tampiram' name='tampiram' value="9"></input> 
+    <input type='submit' value='pintar' onclick="dibujapir(document.getElementById('tampiram').value);return false;"> 
+    <div id='resultado'></div>       
+       </script>
+
+   <script src="ejercicio.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+h1{
+  color: white;
+}
+body{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_pbQJ19ic66JNR_koAKXzc-tpdur3ItQji_kAoPYTtUTtQWv);
+  background-size:   cover;
+  color: white;
+}
+nav{
+  background-color: yellow;
+  padding: 3px;
+  border-radius: 15px;
+  border-style:  solid;
+  display: run-in;
+}
+nav {
+  image:
+}
+nav button{
+  background-color: khaki;
+  border-radius: 15px;
+}
+nav a{
+  color: black;
+  float: right;
+}

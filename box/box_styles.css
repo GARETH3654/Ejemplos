@@ -1,0 +1,73 @@
+head{
+  border-bottom: 50px;
+  color: solid black;
+}
+nav{
+  background-color: greenyellow;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: inset;
+  display:   run-in;
+  overflow: hidden;
+  top: 0;
+  width:  95%;
+}
+
+nav h2{
+  color: black;
+
+}
+nav a {
+  color: red;
+  float: right;
+}
+
+.header-div{
+  display: inline-block;
+}
+.header-div img{
+  width: 150px;
+  vertical-align: middle;
+}
+.header-div a{
+  color: black;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 0 50PX;
+  }
+  article{
+    display: inline-block;
+    margin: 0 50px;
+    height: 500px;
+    vertical-align: top;
+    width: 25%;
+  }
+  article img{
+    width: 100%;
+  }
+  article .article-picture{
+    height: 300px
+    overflow: hidden;
+  }
+
+footer{
+  background-color: grey;
+  padding: 50px;
+  margin-top: 30px;
+}
+footer p{
+color: white;
+font-size: 25px;
+}
+footer img {
+width: 80px;
+}
+footer.picture img{
+  width: 10px;
+}
+footer .footer-div{
+  display: inline-block;
+}
+footer .contac-info{
+  width: 80%;
+}
