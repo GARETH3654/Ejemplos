@@ -19,7 +19,12 @@
     <h3>
       <p>un palindromo es una palabra que se puede leer
         al derecho y al revez</p>
-        <button onclick = "palindrome();">escribir palindromo</button>
+    <form action="">
+      <label for="pali"></label>
+      <input id="pali" name="pali" type="text">
+      <input type="button" value="escribe tu palindromo" onclick="palindrome(this.form)">
+
+    </form>
 
     <h1>Piramide</h1>
     <button onclick="pyramid();">piramide</button>

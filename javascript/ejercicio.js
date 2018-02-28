@@ -1,5 +1,6 @@
-function palindrome() {
-  var word = prompt ('¿cual es tu Palindromo?')
+function palindrome(form) {
+  var word= form.pali.value
+  console.log(form.pali.value);
   word = word.toLowerCase();
   word = word.replace(/\s/g, '');
   NewWord = word.split('').reverse(). join('');

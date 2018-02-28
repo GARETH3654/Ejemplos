@@ -1,5 +1,12 @@
-function level(Num) {
-  var Num = prompt ('¿cual es tu nivel?')
+
+//    function level(Num) {
+
+
+
+
+function level(form){
+  var Num= form. rango. value
+  console.log(form. rango. value);
   var t = 100
   var w = 80
   var x = 65
@@ -52,8 +59,10 @@ function level(Num) {
 }
 
 
-function fibonacci(){
-  var size = parseInt ( prompt('entonces ... ¿ que tantos num quieres'))
+  function fibo(form){
+  var size =  form.sucesión.value
+  console.log(form. sucesión. value);
+
   var first = 0 ;
   var second = 1;
   var serie = [];

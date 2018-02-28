@@ -19,7 +19,13 @@
     <h3>
       <p>aqui se podra poner el rango y/o el nivel en el que actualmente estas y automaticamente
       te va a dar tu rango </p>
-      <button onclick="level()">Ver mi rango</button>
+      <form action="">
+        <label for="rango">escribe tu rango</label>
+        <input id="rango" type="number" name="rango">
+        <input type="button" value=" Ver mi rango"
+        onclick="level(this.form)">
+
+      </form>
       <p class="level">mira tu nivel</p>
       <img class="character-image"src="imagenes/incognito.jpg">
       <imagenes
@@ -31,7 +37,13 @@
   <h3>
       <p>aqui podras saber hasta que numero de la seriq de fibonacci te gustaria llegar</p>
       <p>codigo fibonacci</p>
-      <button onclick="fibonacci();">comenzar></button>
+      <form action="">
+        <label for="sucesión"></label>
+        <input id="sucesión" name="sucesión" type="sucesión">
+        <input type="button" value="Ver sucesión"
+        onclick="fibo(this.form)">
+
+      </form>
       <article>
       <p class="fibo"> Elige cuantos numeros de fibonacci quieres ver </p>
     </article>
